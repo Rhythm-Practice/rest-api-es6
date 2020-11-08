@@ -1,7 +1,8 @@
-module.exports = app => {
-  app.get('/', (req, res) => {
+module.exports = (app) => {
+  app.get("/", (req, res) => {
     res.json({
-      response: 'API Works!'
-    })
+      response: "API Works!",
+    });
   });
+  app.post("/file", (req, res) => {});
 };

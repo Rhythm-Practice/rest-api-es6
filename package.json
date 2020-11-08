@@ -11,7 +11,21 @@
     "babel-preset-es2015": "^6.24.1",
     "body-parser": "^1.17.2",
     "consign": "^0.1.5",
+    "cors": "^2.8.5",
     "express": "^4.15.3",
     "mongojs": "^2.4.0"
-  }
+  },
+  "devDependencies": {
+    "babel-node": "0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rhythm-Practice/rest-api-es6.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Rhythm-Practice/rest-api-es6/issues"
+  },
+  "homepage": "https://github.com/Rhythm-Practice/rest-api-es6#readme",
+  "description": ""
 }
